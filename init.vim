@@ -1,4 +1,13 @@
+" ===
+" === Auto load for first time uses
+" ===
+if empty(glob($HOME.'/.config/nvim/autoload/plug.vim'))
+	silent !curl -fLo $HOME/.config/nvim/autoload/plug.vim --create-dirs
+				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
+" leader key
 let mapleader=","
 
 set cul "高亮光标所在行

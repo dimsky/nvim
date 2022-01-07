@@ -1,4 +1,5 @@
 # nvim
 
-Neo vim 常用配置
+### Neo vim 常用配置
 
+#### 配置说明

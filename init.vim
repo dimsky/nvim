@@ -38,6 +38,12 @@ call plug#begin('~/.config/nvim/plugged')
 
   " 自动补全括号
   Plug 'jiangmiao/auto-pairs'
+  " 注释
+  Plug 'preservim/nerdcommenter'
+
+  " 状态栏
+  Plug 'vim-airline/vim-airline'
+
 
 call plug#end()
 " =======================
